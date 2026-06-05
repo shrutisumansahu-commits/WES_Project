@@ -1,0 +1,3 @@
+Sample	fastqc-percent_duplicates	fastqc-percent_gc	fastqc-avg_sequence_length	fastqc-median_sequence_length	fastqc-percent_fails	fastqc-total_sequences
+subset_R1	2.456719226703825	45.0	76.0	76	9.090909090909092	5.019892
+subset_R2	2.3275358339704724	45.0	76.0	76	9.090909090909092	5.019892
