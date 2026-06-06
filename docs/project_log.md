@@ -97,3 +97,18 @@ Duplicate marking initially failed because the BAM header lacked Read Group (RG)
 
 Reason:
 GATK tools require RG metadata to distinguish sequencing libraries and samples and to maintain compatibility with GATK Best Practices.
+
+## Variant Calling Results
+
+Tool:
+- GATK HaplotypeCaller
+
+Output:
+- raw_variants.vcf.gz
+
+Results:
+- Total variants identified: 75,717
+
+Notes:
+- Variants include both SNPs and INDELs.
+- Calls generated from a downsampled subset of the NA12878 benchmark exome dataset.
