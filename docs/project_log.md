@@ -61,3 +61,17 @@ Completed:
 
 Purpose:
 Prepare the reference genome for read alignment and downstream variant calling.
+## Read Alignment
+
+Tool: BWA-MEM
+
+Input:
+- trimmed_R1.fastq
+- trimmed_R2.fastq
+- GRCh38 reference genome
+
+Output:
+- sample.sam
+
+Purpose:
+Mapped exome sequencing reads to the human reference genome to identify their genomic coordinates for downstream variant analysis.
