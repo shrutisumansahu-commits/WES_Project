@@ -24,7 +24,7 @@ This project aims to develop a reproducible Whole Exome Sequencing (WES) analysi
 - [x] Read trimming (fastp)
 - [x] GRCh38 reference preparation
 - [x] Read alignment
-- [ ] BAM processing
+- [x] BAM processing
 - [ ] Duplicate marking
 - [ ] Variant calling
 - [ ] Variant annotation

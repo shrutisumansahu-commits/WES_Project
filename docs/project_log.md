@@ -75,3 +75,19 @@ Output:
 
 Purpose:
 Mapped exome sequencing reads to the human reference genome to identify their genomic coordinates for downstream variant analysis.
+## BAM Processing
+
+Tool: SAMtools
+
+Completed:
+- Converted SAM to BAM
+- Sorted BAM by genomic coordinates
+- Indexed BAM
+
+Outputs:
+- sample.bam
+- sample_sorted.bam
+- sample_sorted.bam.bai
+
+Purpose:
+Generate compressed and indexed alignment files required for duplicate marking and variant calling.
