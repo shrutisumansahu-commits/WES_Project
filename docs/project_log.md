@@ -1,3 +1,5 @@
+
+
 # Project Log
 
 ## Step 1: Dataset Selection
@@ -42,3 +44,20 @@ Output:
 - subset_R2.fastq
 
 Status: Completed
+## Reference Genome Preparation
+
+Reference Genome: GRCh38 (Ensembl Release 110)
+
+Tools:
+- BWA
+- SAMtools
+- GATK
+
+Completed:
+- Downloaded GRCh38 primary assembly
+- Generated BWA index files
+- Created FASTA index (.fai)
+- Created sequence dictionary (.dict)
+
+Purpose:
+Prepare the reference genome for read alignment and downstream variant calling.

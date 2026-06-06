@@ -14,23 +14,20 @@ This project aims to develop a reproducible Whole Exome Sequencing (WES) analysi
 
 ## Workflow
 
+## Progress
+
 - [x] Dataset acquisition
 - [x] SRA to FASTQ conversion
 - [x] Read downsampling
-- [x] Quality assessment (FastQC)
-- [x] MultiQC report generation
+- [x] FastQC
+- [x] MultiQC
 - [x] Read trimming (fastp)
-- [x] Reference genome preparation (GRCh38)
-
-### Upcoming Steps
-
-- [ ] BWA-MEM alignment
+- [x] GRCh38 reference preparation
+- [ ] Read alignment
 - [ ] BAM processing
 - [ ] Duplicate marking
-- [ ] Variant calling (GATK HaplotypeCaller)
-- [ ] Variant filtering
+- [ ] Variant calling
 - [ ] Variant annotation
-- [ ] Variant interpretation
 
 ## Tools Used
 
