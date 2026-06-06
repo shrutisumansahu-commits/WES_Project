@@ -91,3 +91,9 @@ Outputs:
 
 Purpose:
 Generate compressed and indexed alignment files required for duplicate marking and variant calling.
+### Troubleshooting Note
+
+Duplicate marking initially failed because the BAM header lacked Read Group (RG) information. Read groups were added using GATK AddOrReplaceReadGroups before rerunning duplicate marking.
+
+Reason:
+GATK tools require RG metadata to distinguish sequencing libraries and samples and to maintain compatibility with GATK Best Practices.
