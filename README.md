@@ -58,3 +58,20 @@ This troubleshooting step improved understanding of GATK Best Practices and BAM 
 
 Completed through variant discovery and filtering.
 
+## Functional Annotation Results
+
+Variants were annotated using SnpEff (GRCh38.115).
+
+| Consequence Type | Count |
+|------------------|------:|
+| Missense Variant | 1028 |
+| Synonymous Variant | 798 |
+| Frameshift Variant | 21 |
+| Stop Gained | 11 |
+| Splice Region Variant | 86 |
+
+### Key Observations
+
+- Missense variants represented the largest functional class (1028 variants).
+- 21 frameshift variants and 11 stop-gained variants were identified, representing potentially high-impact coding changes.
+- Variant annotation enabled prioritization of protein-altering variants for downstream interpretation.
