@@ -112,3 +112,20 @@ Results:
 Notes:
 - Variants include both SNPs and INDELs.
 - Calls generated from a downsampled subset of the NA12878 benchmark exome dataset.
+## Variant Statistics
+
+Filtered Variant Set
+
+Total Variants: 3,488
+
+Variant Composition:
+- SNPs: 3,315
+- INDELs: 173
+- Multiallelic Sites: 10
+
+Filtering Criteria:
+- QUAL > 30
+- INFO/DP > 10
+
+Interpretation:
+Stringent filtering retained a high-confidence subset of variants suitable for downstream annotation and interpretation.
