@@ -1,0 +1,55 @@
+SRR098401 (NA12878 WES Dataset)
+            │
+            ▼
+      fasterq-dump
+            │
+            ▼
+      FASTQ Files
+            │
+            ▼
+ FastQC + MultiQC
+            │
+            ▼
+         fastp
+            │
+            ▼
+      Trimmed Reads
+            │
+            ▼
+   BWA-MEM Alignment
+            │
+            ▼
+      sample.sam
+            │
+            ▼
+   SAMtools View
+            │
+            ▼
+      sample.bam
+            │
+            ▼
+   SAMtools Sort
+            │
+            ▼
+ sample_sorted.bam
+            │
+            ▼
+ AddOrReplaceReadGroups
+            │
+            ▼
+    MarkDuplicates
+            │
+            ▼
+   sample_dedup.bam
+            │
+            ▼
+   GATK HaplotypeCaller
+            │
+            ▼
+    raw_variants.vcf
+            │
+            ▼
+ bcftools Filtering
+            │
+            ▼
+3488 High-Confidence Variants
