@@ -115,3 +115,13 @@ Functional annotation using SnpEff identified several HIGH-impact variants.
 | Synonymous Variants | 798 |
 | Frameshift Variants | 21 |
 | Stop-Gained Variants | 11 |
+## Custom Python Utilities
+
+The repository includes Python scripts developed for downstream variant analysis and quality assessment:
+
+* `titv_ratio.py` — computes transition/transversion (Ti/Tv) ratio from filtered VCF files.
+* `consequence_summary.py` — summarizes SnpEff functional consequence annotations.
+* `high_impact_genes.py` — extracts genes containing frameshift and stop-gained variants.
+* `project_metrics.py` — generates project summary tables for reporting and visualization.
+
+These scripts demonstrate Python-based automation of variant quality assessment, annotation summarization, and result reporting.
